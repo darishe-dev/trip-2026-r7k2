@@ -50,7 +50,7 @@ nav.tabs .bdg{background:#c0392b;color:#fff;border-radius:9px;padding:0 5px;font
 h2.sec{font-size:17px;margin:20px 14px 8px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
 @media(max-width:640px){nav.tabs button{font-size:12px;padding:5px 8px}.kpi{flex:1 1 44%}}
 </style>
-</head><body><header><h1>תאילנד ויפן · דרי, גל וסוליי</h1><div class=sub>25.8 – 19.10.2026 · 54 לילות · <b>גרסה 3.1 · עודכן 17.8.2026</b> · <span id="stamp"></span><br><span style="font-size:12px">מסמך אחד. אפס פריטים הוסרו אי פעם. כל הזמנה עם תיעוד לחיץ.<br>🔗 <a href="https://darishe-dev.github.io/trip-2026-r7k2/" style="color:#003b95;font-weight:700">darishe-dev.github.io/trip-2026-r7k2</a> — הלינק הקבוע, תמיד הגרסה האחרונה.<br><b style="color:#003b95">🕐 עודכן: 17.08.2026 · 13:11</b> (שעון ישראל)</span></div></header><nav class=tabs>
+</head><body><header><h1>תאילנד ויפן · דרי, גל וסוליי</h1><div class=sub>25.8 – 19.10.2026 · 54 לילות · <b>גרסה 3.1 · עודכן 17.8.2026</b> · <span id="stamp"></span><br><span style="font-size:12px">מסמך אחד. אפס פריטים הוסרו אי פעם. כל הזמנה עם תיעוד לחיץ.<br>🔗 <a href="https://darishe-dev.github.io/trip-2026-r7k2/" style="color:#003b95;font-weight:700">darishe-dev.github.io/trip-2026-r7k2</a> — הלינק הקבוע, תמיד הגרסה האחרונה.<br><b style="color:#003b95">🕐 עודכן: 17.08.2026 · 20:08</b> (שעון ישראל)</span></div></header><nav class=tabs>
 <button class="tb on" data-t=t0 onclick="T(this)">📊 סקירה</button>
 <button class=tb data-t=t1 onclick="T(this)">🗺️ מסלול</button>
 <button class=tb data-t=t2 onclick="T(this)">🏝️ לוז איים</button>
@@ -95,141 +95,81 @@ h2.sec{font-size:17px;margin:20px 14px 8px;padding-bottom:6px;border-bottom:2px 
 <tr class=m><td class=d>בנגקוק</td><td class=dt>14–18.10</td><td class=n>4</td><td class=tr><span class=sm>טוקיו – נריטה: לצאת 07:30 לטיסה ב-12:00</span><br>✈️ <a href='https://mail.google.com/mail/u/0/#all/19fa2b40679b97cb' target=_blank>LY8282</a> · המראה 12:00, נחיתה 16:30</td><td class=st>—</td><td><button onclick="s('peninsula2')">The Peninsula</button><div class=sm><span class=ok>✅ מאושר · #12598SG396565 · אושר ישירות מול המלון 12.8</span><br>₿65,912 · ביטול 9.10<br>14–18.10, 4 לילות</div><br><span style='font-size:11px;color:#2c6e49'>🕐 צ'ק-אין מ-06:00 · צ'ק-אאוט עד 22:00 (גמיש, סוכם)</span></td><td class=nt>טיסה הביתה LY80 ב-18.10, 20:00</td></tr></table></div>
 </div><div class=panel id=t2>
 <section id="mapsec" style="margin:18px 10px;padding:14px 16px;border:2px solid #6a3d9a;border-radius:10px;background:#fff">
-<h2 style="margin:0 0 4px">🗺️ מפת האיים + ציר זמן — לשימוש בשטח</h2>
-<div style="font-size:12px;color:#666;margin-bottom:12px">סכמטי, לא לפי קנה מידה. כל תחנה לחיצה → נפתחת במפות גוגל. זמני נסיעה מאומתים.</div>
-
-<div style="overflow-x:auto">
-<svg viewBox="0 0 900 460" style="min-width:820px;width:100%;font-family:inherit">
-<rect width="900" height="460" fill="#f4f8fb"/>
-<text x="880" y="26" text-anchor="end" font-size="12" fill="#8aa">瀬戸内海 · Seto Inland Sea</text>
-
-<!-- NAOSHIMA -->
-<ellipse cx="300" cy="250" rx="235" ry="150" fill="#e8f0e4" stroke="#7a9a6a" stroke-width="2"/>
-<text x="300" y="122" text-anchor="middle" font-size="16" font-weight="700" fill="#3a5a2a">直島 NAOSHIMA</text>
-
-<!-- TESHIMA -->
-<ellipse cx="740" cy="180" rx="120" ry="85" fill="#e4ecf4" stroke="#6a8aaa" stroke-width="2"/>
-<text x="740" y="112" text-anchor="middle" font-size="15" font-weight="700" fill="#2a4a6a">豊島 TESHIMA</text>
-
-<!-- UNO -->
-<rect x="30" y="30" width="120" height="46" rx="8" fill="#fff" stroke="#999"/>
-<text x="90" y="52" text-anchor="middle" font-size="13" font-weight="700">宇野 UNO</text>
-<text x="90" y="68" text-anchor="middle" font-size="10" fill="#666">אוקיאמה · 50 דק'</text>
-
-<!-- ferry lines -->
-<line x1="110" y1="80" x2="180" y2="205" stroke="#0b7" stroke-width="3" stroke-dasharray="7,5"/>
-<text x="112" y="150" font-size="10.5" fill="#087" transform="rotate(60 112 150)">⛴ 20 דק' · ¥370</text>
-<line x1="255" y1="196" x2="625" y2="180" stroke="#06c" stroke-width="3" stroke-dasharray="7,5"/>
-<text x="400" y="176" font-size="10.5" fill="#05a">⛴ 22 דק' · ¥820 · לא בשלישי</text>
-
-<!-- Miyanoura -->
-<circle cx="200" cy="215" r="13" fill="#c0392b"/><text x="200" y="220" text-anchor="middle" font-size="12" fill="#fff" font-weight="700">1</text>
-<text x="200" y="248" text-anchor="middle" font-size="12.5" font-weight="700">宮浦 מיאנאורה</text>
-<text x="200" y="264" text-anchor="middle" font-size="10.5" fill="#555">Juju · 7-Eleven · I♥湯</text>
-<text x="200" y="278" text-anchor="middle" font-size="10.5" fill="#555">Little Plum · Cin.na.mon</text>
-<text x="200" y="292" text-anchor="middle" font-size="10.5" fill="#555">דלעת אדומה · Gallery 6</text>
-
-<!-- Benesse area -->
-<circle cx="330" cy="330" r="13" fill="#2c6e49"/><text x="330" y="335" text-anchor="middle" font-size="12" fill="#fff" font-weight="700">2</text>
-<text x="330" y="363" text-anchor="middle" font-size="12.5" font-weight="700">אזור Benesse</text>
-<text x="330" y="378" text-anchor="middle" font-size="10.5" fill="#555">צ'יצ'ו · Lee Ufan · Valley</text>
-<text x="330" y="392" text-anchor="middle" font-size="10.5" fill="#555">Benesse House · Sugimoto</text>
-<text x="330" y="406" text-anchor="middle" font-size="10.5" fill="#555">דלעת צהובה · קפה</text>
-
-<!-- Honmura -->
-<circle cx="475" cy="255" r="13" fill="#8a5a2a"/><text x="475" y="260" text-anchor="middle" font-size="12" fill="#fff" font-weight="700">3</text>
-<text x="475" y="288" text-anchor="middle" font-size="12.5" font-weight="700">本村 הונמורה</text>
-<text x="475" y="303" text-anchor="middle" font-size="10.5" fill="#555">Art House · Ando</text>
-<text x="475" y="317" text-anchor="middle" font-size="10.5" fill="#555">Naoshima New</text>
-
-<!-- bike routes -->
-<path d="M200 228 Q250 300 318 322" stroke="#c0392b" stroke-width="2.5" fill="none"/>
-<text x="228" y="300" font-size="10" fill="#c0392b">🚲 20 דק'</text>
-<path d="M343 322 Q420 300 464 268" stroke="#c0392b" stroke-width="2.5" fill="none"/>
-<text x="395" y="300" font-size="10" fill="#c0392b">🚲 25 דק'</text>
-<path d="M212 208 Q340 180 464 246" stroke="#c0392b" stroke-width="2" fill="none" stroke-dasharray="4,4"/>
-<text x="330" y="196" font-size="10" fill="#c0392b">🚲 20 דק'</text>
-
-<!-- Teshima stops -->
-<circle cx="660" cy="200" r="12" fill="#06c"/><text x="660" y="205" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">4</text>
-<text x="660" y="230" text-anchor="middle" font-size="12" font-weight="700">家浦 איאורה</text>
-<text x="660" y="245" text-anchor="middle" font-size="10.5" fill="#555">Umi · Yokoo · אופניים</text>
-<circle cx="795" cy="160" r="12" fill="#06c"/><text x="795" y="165" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">5</text>
-<text x="795" y="138" text-anchor="middle" font-size="12" font-weight="700">唐櫃 קאראטו</text>
-<text x="795" y="123" text-anchor="middle" font-size="10.5" fill="#555">מוזיאון טשימה</text>
-<path d="M672 194 Q735 178 784 166" stroke="#06c" stroke-width="2.5" fill="none"/>
-<text x="700" y="176" font-size="10" fill="#06c">🚌 14 דק' · ¥400</text>
-<text x="740" y="252" text-anchor="middle" font-size="10.5" fill="#c0392b">⚠️ אוטובוס אחד · 28 מקומות</text>
-</svg>
+<h2 style="margin:0 0 4px">🗺️ מפה אמיתית — נאושימה וטשימה</h2>
+<div style="font-size:12px;color:#666;margin-bottom:10px">מפה חיה. אפשר לגרור, לזום, ולחיצה על סימן פותחת שם, שעות וניווט. <b>הכפתורים מסננים לפי יום.</b></div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px" id="mapbtns">
+<button class="mb on" data-l="all">הכל</button><button class="mb" data-l="d5">ב׳ 5.10 · הגעה</button><button class="mb" data-l="d6">ג׳ 6.10 · Benesse</button><button class="mb" data-l="d7">ד׳ 7.10 · טשימה</button><button class="mb" data-l="d8">ה׳ 8.10 · הונמורה</button><button class="mb" data-l="inf">🚢 תחבורה ושירותים</button>
 </div>
-
-<div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:14px">
-<div style="flex:1;min-width:280px">
-<b style="font-size:13px">1 · 宮浦 מיאנאורה — הבסיס</b>
-<div style="font-size:11.5px;line-height:1.9;margin-top:4px">
-<a href="https://www.google.com/maps/search/?api=1&query=Juju+Kiseki+House+Naoshima" target=_blank>🏠 Juju Kiseki House</a> · <a href="https://www.google.com/maps/search/?api=1&query=Miyanoura+Port+Naoshima" target=_blank>⛴ הנמל</a><br>
-<a href="https://www.google.com/maps/search/?api=1&query=Red+Pumpkin+Naoshima" target=_blank>🎃 דלעת אדומה</a> 🆓 · <a href="https://benesse-artsite.jp/en/art/naoshima-gallery6.html" target=_blank>Gallery 6</a> 🆓 · <a href="https://www.google.com/maps/search/?api=1&query=The+Naoshima+Plan+The+Water" target=_blank>The Water</a> 🆓<br>
-<a href="https://benesse-artsite.jp/en/art/naoshimasento.html" target=_blank>♨️ I♥湯</a> 13:00–21:00 · <a href="https://ougiya-naoshima.jp/english/rental.html" target=_blank>🚲 Ougiya</a> 8:00–18:00<br>
-<a href="https://maps.google.com/?cid=13073216452073130695" target=_blank>🍽 Little Plum</a> · <a href="https://maps.google.com/?cid=12706252560932003449" target=_blank>🍽 Cin.na.mon</a> · <a href="https://www.google.com/maps/search/?api=1&query=7-Eleven+Miyanoura+Naoshima" target=_blank>🛒 7-Eleven</a>
-</div></div>
-<div style="flex:1;min-width:280px">
-<b style="font-size:13px">2 · אזור Benesse — 🚲 20 דק' ממיאנאורה</b>
-<div style="font-size:11.5px;line-height:1.9;margin-top:4px">
-<a href="https://benesse-artsite.jp/en/art/chichu.html" target=_blank>🎨 צ'יצ'ו</a> 10:00–17:00 · <a href="https://benesse-artsite.jp/en/art/lee-ufan.html" target=_blank>Lee Ufan</a> 10:00–17:00<br>
-<a href="https://benesse-artsite.jp/en/art/benessehouse-museum.html" target=_blank>Benesse House</a> <b>8:00–21:00</b> · <a href="https://benesse-artsite.jp/en/art/sugimoto-gallery.html" target=_blank>Sugimoto</a> 11:00–15:00<br>
-Valley Gallery 9:30–16:00 · <a href="https://www.google.com/maps/search/?api=1&query=Yayoi+Kusama+Yellow+Pumpkin+Naoshima" target=_blank>🎃 דלעת צהובה</a> 🆓<br>
-<span style="color:#c0392b">חונים ב-Tsutsujiso ועולים על השאטל החינם (לא פועל בשני)</span>
-</div></div>
-<div style="flex:1;min-width:280px">
-<b style="font-size:13px">3 · 本村 הונמורה — 🚲 25 דק' מ-Benesse</b>
-<div style="font-size:11.5px;line-height:1.9;margin-top:4px">
-<a href="https://benesse-artsite.jp/en/art/arthouse.html" target=_blank>🏘 Art House Project</a> ¥1,200 · עד 16:30<br>
-<a href="https://benesse-artsite.jp/en/art/ando-museum.html" target=_blank>Ando Museum</a> 14:00–16:30 · <a href="https://benesse-artsite.jp/en/nnmoa/" target=_blank>Naoshima New</a> עד 16:30<br>
-<span style="color:#c0392b">כניסה אחרונה 16:00 לשניהם</span>
-</div></div>
-<div style="flex:1;min-width:280px">
-<b style="font-size:13px">4–5 · טשימה — ⛴ 22 דק' ממיאנאורה</b>
-<div style="font-size:11.5px;line-height:1.9;margin-top:4px">
-<a href="https://benesse-artsite.jp/en/art/teshima-artmuseum.html" target=_blank>🎨 Teshima Art Museum</a> 10:00–16:00 · <a href="https://benesse-artsite.jp/en/art/boltanski.html" target=_blank>Les Archives</a><br>
-<a href="https://benesse-artsite.jp/en/art/teshima-yokoohouse.html" target=_blank>Yokoo House</a> (איאורה) · <a href="https://il-grano.jp/umi/" target=_blank>🍽 Umi no Restaurant</a><br>
-<a href="http://www.tppp.jp/" target=_blank>🚲 Teshima PP</a> גיבוי · 📞 טקסי 0879-68-2111
-</div></div>
-</div>
-</section>
-
-<section style="margin:18px 10px;padding:14px 16px;border:2px solid #003b95;border-radius:10px;background:#fff">
-<h2 style="margin:0 0 10px">⏱️ ציר זמן — שלושת הימים</h2>
 <style>
-.tlrow{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:11.5px}
-.tlab{width:74px;flex:none;text-align:left;color:#666;font-variant-numeric:tabular-nums}
-.tbar{height:22px;border-radius:4px;display:flex;align-items:center;padding:0 7px;color:#fff;font-weight:600;white-space:nowrap;overflow:hidden}
-.tgap{background:repeating-linear-gradient(45deg,#ddd,#ddd 4px,#eee 4px,#eee 8px);height:22px;border-radius:4px;flex:none}
+.mb{font:inherit;font-size:11.5px;font-weight:600;padding:5px 11px;border:1px solid var(--line);background:#fff;border-radius:20px;cursor:pointer;color:#555}
+.mb.on{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+#lmap{height:520px;border-radius:8px;border:1px solid var(--line)}
+.leaflet-popup-content{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;direction:rtl;text-align:right;font-size:12.5px;line-height:1.7}
 </style>
-<div style="overflow-x:auto"><div style="min-width:640px">
-
-<div style="font-weight:700;margin:10px 0 6px;font-size:13px">יום ב' · 5.10 — הגעה</div>
-<div class=tlrow><span class=tlab>15:30</span><div class=tbar style="background:#0b7;width:90px">⛴ מעבורת</div><div class=tbar style="background:#8a5a2a;width:110px">צ'ק-אין 16:10</div><div class=tbar style="background:#2c6e49;width:130px">🎃 דלעות + שקיעה</div></div>
-<div class=tlrow><span class=tlab>17:45</span><div class=tbar style="background:#e0a800;width:150px">🛒 קניות לשני בקרים + מזומן</div><div class=tbar style="background:#c0392b;width:120px">🍽 Little Plum 18:30</div></div>
-
-<div style="font-weight:700;margin:16px 0 6px;font-size:13px">יום ג' · 6.10 — נאושימה 🚲</div>
-<div class=tlrow><span class=tlab>08:00</span><div class=tbar style="background:#666;width:56px">🚲</div><div class=tbar style="background:#2c6e49;width:70px">רכיבה</div><div class=tbar style="background:#003b95;width:130px">Benesse House 08:55</div><span class=tgap style="width:26px"></span></div>
-<div class=tlrow><span class=tlab>10:10</span><div class=tbar style="background:#003b95;width:170px">🎨 צ'יצ'ו · 80 דק'</div><span class=tgap style="width:30px"></span><div class=tbar style="background:#003b95;width:76px">Lee Ufan</div><span class=tgap style="width:30px"></span></div>
-<div class=tlrow><span class=tlab>12:30</span><div class=tbar style="background:#c0392b;width:130px">🍽 צהריים · שעה</div><div class=tbar style="background:#666;width:96px">🚲 להונמורה</div></div>
-<div class=tlrow><span class=tlab>14:15</span><div class=tbar style="background:#8a5a2a;width:150px">🏘 Art House · 70 דק'</div><span class=tgap style="width:22px"></span><div class=tbar style="background:#8a5a2a;width:56px">Ando</div><div class=tbar style="background:#8a5a2a;width:100px">Naoshima New</div></div>
-<div class=tlrow><span class=tlab>17:00</span><div class=tbar style="background:#666;width:70px">🚲 חזרה</div><div class=tbar style="background:#2c6e49;width:96px">🆓 גלריות</div><div class=tbar style="background:#6a3d9a;width:90px">♨️ I♥湯</div><div class=tbar style="background:#c0392b;width:110px">🍽 Cin.na.mon</div></div>
-
-<div style="font-weight:700;margin:16px 0 6px;font-size:13px">יום ד' · 7.10 — טשימה 🚌</div>
-<div class=tlrow><span class=tlab>08:50</span><div class=tbar style="background:#0b7;width:120px">⛴ 09:20 → 09:42</div><span class=tgap style="width:56px"></span><div class=tbar style="background:#06c;width:90px">🚌 10:05</div></div>
-<div class=tlrow><span class=tlab>10:30</span><div class=tbar style="background:#003b95;width:140px">🎨 מוזיאון טשימה</div><span class=tgap style="width:40px"></span><div class=tbar style="background:#003b95;width:110px">Les Archives</div></div>
-<div class=tlrow><span class=tlab>12:26</span><div class=tbar style="background:#06c;width:74px">🚌</div><div class=tbar style="background:#c0392b;width:140px">🍽 Umi · שעה</div><span class=tgap style="width:34px"></span><div class=tbar style="background:#003b95;width:96px">Yokoo House</div></div>
-<div class=tlrow><span class=tlab>14:40</span><span class=tgap style="width:150px"></span><div class=tbar style="background:#0b7;width:120px">⛴ 16:17 → 16:39</div><div class=tbar style="background:#c0392b;width:96px">🍽 17:45</div></div>
-
-<div style="font-weight:700;margin:16px 0 6px;font-size:13px">יום ה' · 8.10 — יציאה</div>
-<div class=tlrow><span class=tlab>08:30</span><div class=tbar style="background:#8a5a2a;width:96px">בוקר + אריזה</div><div class=tbar style="background:#2c6e49;width:80px">🎃 דלעת</div><div class=tbar style="background:#0b7;width:110px">⛴ 09:52</div><div class=tbar style="background:#666;width:120px">🚆 אוקיאמה</div></div>
-
-<div style="margin-top:12px;font-size:11px;color:#666"><span style="display:inline-block;width:22px;height:11px;background:repeating-linear-gradient(45deg,#ddd,#ddd 4px,#eee 4px,#eee 8px);vertical-align:middle;border-radius:3px"></span> = מרווח ביטחון (15–25 דק')</div>
-</div></div>
+<div id="lmap"></div>
+<div style="font-size:11px;color:#666;margin-top:8px">מיקומי הסימנים מקורבים לצורך התמצאות. <b>לניווט בפועל — הלינק בתוך כל סימן, שפותח את מפות גוגל.</b></div>
 </section>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+window.addEventListener('load',function(){
+if(!window.L||!document.getElementById('lmap'))return;
+var P=[
+["🏠 Juju Kiseki House","הלינה · צ׳ק-אין 15:00 · PIN 2246",34.4658,133.9955,"d5","#8a5a2a","Juju Kiseki House Naoshima"],
+["⛴️ נמל מיאנאורה","מעבורת לאונו + ספינה לטשימה · <b>רציפים שונים!</b>",34.4664,133.9944,"inf","#0b7","Miyanoura Port Naoshima"],
+["🚲 Ougiya השכרת אופניים","8:00–18:00 · 📞 090-3189-0471 · קפה 10:00–19:00",34.4661,133.9947,"inf","#c0392b","Ougiya Naoshima"],
+["🛒 7-Eleven מיאנאורה","24 שעות · ארוחות בוקר וחטיפים לסוליי",34.4640,133.9968,"inf","#666","7-Eleven Naoshima Miyanoura"],
+["🎃 הדלעת האדומה","בנמל · חינם · 24/7",34.4649,133.9928,"d5","#c0392b","Red Pumpkin Naoshima"],
+["🏛️ Naoshima Pavilion","ליד הנמל · חינם",34.4655,133.9935,"d5","#2c6e49","Naoshima Pavilion"],
+["🖼️ Miyanoura Gallery 6","חינם · ליד הנמל",34.4646,133.9958,"d5","#2c6e49","Miyanoura Gallery 6 Naoshima"],
+["🍽️ Little Plum","16:00–21:30 · בלי יום סגירה · 📞 090-1112-7040",34.4657,133.9950,"d5","#c0392b","Little Plum Naoshima"],
+["🍽️ Cin.na.mon","17:00–21:00 · <b>סגור א׳+ב׳</b> · 📞 087-840-8133",34.4634,133.9985,"d6","#c0392b","Cin.na.mon Naoshima"],
+["♨️ I♥湯 אמבט האמנות","13:00–21:00 · <b>סגור שני</b> · סוליי ¥310",34.4652,133.9963,"d6","#6a3d9a","Naoshima Bath I Love Yu"],
+["🅿️ Tsutsujiso","חונים כאן את האופניים · שאטל חינם למוזיאונים",34.4497,134.0140,"d6","#666","Tsutsujiso Naoshima"],
+["🎃 הדלעת הצהובה","על החוף · חינם · בדרך",34.4459,134.0119,"d6","#c0392b","Yayoi Kusama Yellow Pumpkin Naoshima"],
+["🎨 צ׳יצ׳ו Chichu","10:00–17:00 · סגור שני · <b>הכניסה שלכם 10:10</b>",34.4530,134.0043,"d6","#003b95","Chichu Art Museum Naoshima"],
+["🎨 Lee Ufan Museum","10:00–17:00 · סגור שני · 30 דק׳",34.4512,134.0060,"d6","#003b95","Lee Ufan Museum Naoshima"],
+["🎨 Valley Gallery","9:30–16:00 · כניסה אחרונה 15:30",34.4520,134.0055,"d6","#003b95","Valley Gallery Naoshima"],
+["🎨 Sugimoto Gallery","<b>11:00–15:00 בלבד</b> · כניסה אחרונה 14:00 · כולל תה ומתוקים",34.4478,134.0100,"d6","#003b95","Hiroshi Sugimoto Gallery Naoshima"],
+["🎨 Benesse House Museum","<b>8:00–21:00 · פתוח כל יום</b> · הקפה שלכם בפנים",34.4479,134.0090,"d6","#003b95","Benesse House Museum Naoshima"],
+["🏘️ Art House Project","10:00–16:30 · סגור שני · ¥1,200 · 5 בתים",34.4590,134.0186,"d8","#8a5a2a","Art House Project Honmura Naoshima"],
+["🎨 Ando Museum","10:00–13:00 / 14:00–16:30 · סגור שני",34.4593,134.0180,"d8","#8a5a2a","ANDO MUSEUM Naoshima"],
+["🎨 Naoshima New Museum of Art","10:00–16:30 · כניסה אחרונה 16:00 · יש קפה",34.4600,134.0170,"d8","#8a5a2a","Naoshima New Museum of Art"],
+["⛴️ נמל הונמורה","קו נפרד לאונו",34.4577,134.0203,"inf","#0b7","Honmura Port Naoshima"],
+["⛴️ נמל איאורה · טשימה","הספינה מגיעה 09:42 · חוזרת 16:17",34.4938,134.1030,"d7","#0b7","Ieura Port Teshima"],
+["🍽️ Umi no Restaurant","11:00–15:00 · סגור שלישי · פסטה וסטי בשר ✅ · 📞 0879-68-3677",34.4940,134.1035,"d7","#c0392b","Umi no Restaurant Teshima"],
+["🎨 Teshima Yokoo House","10:00–16:00 · סגור שלישי · <b>באיאורה, הליכה מהמסעדה</b>",34.4935,134.1042,"d7","#003b95","Teshima Yokoo House"],
+["🚲 Teshima PP","גיבוי לאוטובוס · אופניים עם כיסא ילד ¥2,000 · 📞 080-2943-7788",34.4936,134.1040,"inf","#c0392b","Teshima PP Project Ieura"],
+["🎨 Teshima Art Museum","10:00–16:00 · סגור שלישי · <b>הכניסה שלכם 11:00</b>",34.4886,134.1170,"d7","#003b95","Teshima Art Museum"],
+["🚌 תחנת 美術館前","האוטובוס מאיאורה · 10:05→10:19 · חזרה 12:26→12:40",34.4884,134.1165,"inf","#06c","Teshima Art Museum bus stop"],
+["🌾 מדרגות האורז","מול המוזיאון · הנוף הכי יפה באי · חינם",34.4890,134.1160,"d7","#2c6e49","Teshima rice terraces Karato"],
+["🎨 Les Archives du Cœur","10:00–16:00 · סגור שלישי · על החוף",34.4855,134.1245,"d7","#003b95","Les Archives du Coeur Teshima"],
+["⛴️ נמל אונו Uno","המעבורת מ/אל נאושימה · JR לאוקיאמה",34.4903,133.9490,"inf","#0b7","Uno Port Tamano Okayama"]
+];
+var map=L.map('lmap').setView([34.472,134.055],11);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
+var ms=[];
+P.forEach(function(x){
+ var m=L.circleMarker([x[2],x[3]],{radius:9,color:'#fff',weight:2,fillColor:x[5],fillOpacity:1});
+ m.bindPopup('<b style="font-size:13.5px">'+x[0]+'</b><br>'+x[1]+'<br><a href="https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(x[6])+'" target="_blank" style="font-weight:700">📍 ניווט במפות גוגל »</a>');
+ m.layerKey=x[4]; m.addTo(map); ms.push(m);
+});
+document.querySelectorAll('#mapbtns .mb').forEach(function(b){
+ b.onclick=function(){
+  document.querySelectorAll('#mapbtns .mb').forEach(function(o){o.classList.remove('on')});
+  b.classList.add('on'); var k=b.dataset.l;
+  ms.forEach(function(m){
+   var show=(k==='all')||(m.layerKey===k)||(k!=='inf'&&m.layerKey==='inf');
+   if(show){m.addTo(map)}else{map.removeLayer(m)}
+  });
+  var g=[]; ms.forEach(function(m){if(map.hasLayer(m))g.push(m.getLatLng())});
+  if(g.length)map.fitBounds(L.latLngBounds(g).pad(0.15));
+ };
+});
+setTimeout(function(){map.invalidateSize()},400);
+document.querySelectorAll('nav.tabs .tb').forEach(function(t){t.addEventListener('click',function(){setTimeout(function(){map.invalidateSize()},250)})});
+});
+</script>
 <section id="loz" style="margin:18px 10px;padding:14px 16px;border:2px solid #003b95;border-radius:10px;background:#fff">
 <h2 style="margin:0 0 4px">לוז מפורט — נאושימה וטשימה · 5–8.10.2026</h2>
 <div style="font-size:12px;color:#666;margin-bottom:10px">נבנה מחדש 17.8 מול המקורות הרשמיים של Benesse, Shikoku Kisen ועיריית Tonosho. <b>בלי שנ"צ.</b> כל שעה כאן נבדקה — מה שלא אומת מסומן.</div>
@@ -255,86 +195,44 @@ Valley Gallery 9:30–16:00 · <a href="https://www.google.com/maps/search/?api=
 מוזיאון→איאורה: 8:53→9:07 · 10:28→10:42 · <b>12:26→12:40</b> · 13:51→14:05 · 14:51→15:05 · <b>15:36→15:50</b> · 16:53→17:07
 </div>
 
+<div class="card crit" style="margin:0 0 14px"><h3>🔁 הלוז נבנה מחדש · 17.8 — בקצב של סוליי</h3>
+<b>מה השתנה, ולמה:</b> קודם דחסתי את כל האי ליום אחד ורצתי בין הקצוות. עכשיו <b>כל יום יושב באזור אחד</b>, והמעברים בין אתר לאתר הם הליכה של דקות — לא רכיבה חוצת אי.<br>
+<b>🔑 המהלך שפתר הכל: הונמורה עברה ל-8.10 בבוקר.</b> יום היציאה היה ריק — המעבורת ב-09:52 והמוזיאונים נפתחים ב-10:00. עוברים למעבורת של <b>12:45</b> ומרוויחים בוקר שלם. <b>שום דבר לא נפל, ואף יום כבר לא דחוס.</b>
+<div class=fx><b>הכללים החדשים:</b> מקסימום 2 מוזיאונים לפני הצהריים · הפסקה של 30 דק' אחרי כל מוזיאון · שעת צהריים מלאה · <b>המסעדה תמיד במרחק הליכה ממה שאנחנו רואים</b> · אוכל לסוליי כל שעתיים.</div></div>
+
 <div style="background:#fff8e1;border:1px solid #e0a800;border-radius:8px;padding:10px 12px;margin:0 0 14px;font-size:12.5px;line-height:1.9">
-<b>🥐 ארוחות בוקר לסוליי — קונים יום לפני, בכל יום</b><br>
-באיים אין כמעט מה לקנות בבוקר, והמוזיאונים נפתחים לפני שרוב הדברים פותחים.<br>
-<b>ב-5.10 בערב (אחרי הצ'ק-אין):</b> <a href="https://www.google.com/maps/search/?api=1&query=7-Eleven+Miyanoura+Naoshima" target=_blank><b>7-Eleven מיאנאורה</b></a> · <a href="https://www.google.com/maps/search/?api=1&query=Coop+Naoshima+Miyanoura" target=_blank><b>סופר COOP</b></a> — שניהם במרחק הליכה מ-Juju. לקנות ל<b>שני בקרים</b>: 6.10 ו-7.10.<br>
-<b>למה שני ימים מראש:</b> ב-7.10 יוצאים מהבית ב-08:30 לטשימה, ו<b>בטשימה אין סופר, אין בית מרקחת ואין מכונות בנמל</b>. מה שלא בתיק — אין.<br>
-<span style="color:#c0392b"><b>+ מזומן:</b> כרטיסי הספינה לטשימה והאוטובוס באי — מזומן בלבד. למשוך ב-5.10.</span>
+<b>🥐 אוכל לסוליי — קונים ב-5.10 בערב, לשלושה ימים</b><br>
+<a href="https://www.google.com/maps/search/?api=1&query=7-Eleven+Naoshima+Miyanoura" target=_blank><b>7-Eleven</b></a> (24 שעות) · <a href="https://www.google.com/maps/search/?api=1&query=Coop+Naoshima+Miyanoura" target=_blank><b>COOP</b></a> — במרחק הליכה מ-Juju.<br>
+<b>לקנות:</b> ארוחות בוקר ×3 · <b>חטיפים אמיתיים לתיק</b> (אונִיגירי, בננות, לחמניות) — הוא אוכל כל שעתיים, לא רק בארוחות.<br>
+<span style="color:#c0392b"><b>+ מזומן:</b> הספינה לטשימה והאוטובוס באי — מזומן בלבד. הכספומטים בטשימה מקבלים כרטיסים יפניים בלבד.</span>
 </div>
 
-<div style="margin:14px 0;padding:12px;border-right:4px solid #003b95;background:#fafafa">
-<b style="font-size:15px">יום ב' · 5.10 · הגעה מקיוטו</b> <span style="color:#c0392b;font-weight:700">— בשני הכל סגור חוץ מ-Benesse House</span><br>
-<b>~11:30</b> שינקנסן קיוטו→אוקיאמה (1:00) · <b>~13:30</b> אוקיאמה→<a href="https://www.google.com/maps/search/?api=1&query=Uno+Port+Tamano" target=_blank><b>נמל אונו</b></a> (מונית ~50 דק')<br>
-<b>15:30</b> מעבורת → <b>15:50</b> <a href="https://www.google.com/maps/search/?api=1&query=Miyanoura+Port+Naoshima" target=_blank><b>מיאנאורה</b></a> · <b>16:10</b> צ'ק-אין <a href="https://www.google.com/maps/search/?api=1&query=Juju+Kiseki+House+Naoshima" target=_blank><b>Juju</b></a> (7 דק' הליכה)<br>
-<b>16:45</b> 🎃 <a href="https://www.google.com/maps/search/?api=1&query=Red+Pumpkin+Naoshima" target=_blank><b>הדלעת האדומה</b></a> (בנמל, חינם) · <b>17:15</b> <a href="https://www.google.com/maps/search/?api=1&query=Naoshima+Pavilion" target=_blank><b>Naoshima Pavilion</b></a> (חינם) · שקיעה<br>
-<b>17:45</b> 🛒 קניות ל<b>שני בקרים</b> ב-7-Eleven / COOP + משיכת מזומן<br>
-<b>18:30</b> 🍽️ <a href="https://maps.google.com/?cid=13073216452073130695" target=_blank><b>Little Plum</b></a> · 16:00–21:30 · בלי יום סגירה · 2 דק' מהנמל · 📞 +81 90-1112-7040
-<div style="margin-top:8px;padding:8px;background:#fff3cd;border-radius:6px;font-size:12px"><b>🌙 Benesse House בערב שני — התשובה על הנגישות</b><br>
-המוזיאון פתוח <b>עד 21:00</b> וביום שני כל השאר סגור, כלומר הוא כמעט ריק. <b>אבל בשני השאטל החינם של Benesse לא פועל</b>, וזה החסם.<br>
-<b>מה שכן קיים:</b> אוטובוס עירוני מיאנאורה→Tsutsujiso (¥100 מבוגר, ¥50 ילד, מזומן) ומשם <b>הליכה בעלייה</b> — <span style="color:#c0392b">ותדירות האוטובוס בשעות הערב לא אומתה על ידי, אז אני לא מבטיח אותה</span>. מונית באי — יש, אבל מעטות מאוד.<br>
-<b>ההמלצה שלי בכנות: לוותר.</b> אחרי 4 שעות נסיעה מקיוטו, עם סוליי, בלי שנ"צ, ועם החזרה בחושך על תדירות לא ידועה — הסיכון גדול מהתמורה. <b>אתם רואים את Benesse House ממילא ב-6.10 בבוקר, ריק לגמרי, וזה אותו דבר בלי הדרמה.</b><br>
-<b>אם בכל זאת מתחשק לך:</b> לשאול את המארח של Juju ביום ההגעה מה תדירות האוטובוס בערב ואם יש מונית זמינה. אם יש מונית — זה שווה.</div>
+<div style="margin:14px 0;padding:12px;border-right:4px solid #8a5a2a;background:#fafafa">
+<b style="font-size:15px">יום ב' · 5.10 · הגעה — הכל בנמל, אפס נסיעות</b><br>
+<b>15:30</b> ⛴️ מעבורת מ<a href="https://www.google.com/maps/search/?api=1&query=Uno+Port+Tamano" target=_blank>אונו</a> → <b>~15:50</b> מיאנאורה · ¥300 · סוליי ¥150 · כרטיס בדלפק<br>
+<b>16:10</b> 🏠 צ'ק-אין <a href="https://www.google.com/maps/search/?api=1&query=Juju+Kiseki+House+Naoshima" target=_blank><b>Juju</b></a> — 7 דק' הליכה · <b>לפרוק, לנשום</b><br>
+<span style="font-size:11.5px;color:#666;padding-right:14px">↳ 40 דק' בבית. אחרי 4 שעות נסיעה הוא צריך את זה.</span><br>
+<b>16:50</b> 🎃 <a href="https://www.google.com/maps/search/?api=1&query=Red+Pumpkin+Naoshima" target=_blank><b>הדלעת האדומה</b></a> 🆓 · <a href="https://www.google.com/maps/search/?api=1&query=Naoshima+Pavilion" target=_blank><b>Naoshima Pavilion</b></a> 🆓 · <a href="https://benesse-artsite.jp/en/art/naoshima-gallery6.html" target=_blank><b>Gallery 6</b></a> 🆓<br>
+<span style="font-size:11.5px;color:#666;padding-right:14px">↳ שלושתם <b>בנמל עצמו</b>, 5 דק' הליכה מהבית. סוליי מתפרע, אתם רואים שקיעה.</span><br>
+<b>17:45</b> 🛒 קניות לשלושה ימים + מזומן<br>
+<b>18:15</b> 🍽️ <a href="https://maps.google.com/?cid=13073216452073130695" target=_blank><b>Little Plum</b></a> · 2 דק' מהנמל · 16:00–21:30, בלי יום סגירה<br>
+<b>19:45</b> הביתה, מקלחת, לישון
+<div style="margin-top:8px;padding:8px;background:#eaf5ea;border-radius:6px;font-size:12px"><b>✅ יום ההגעה הוא יום מנוחה.</b> אפס מוזיאונים (ממילא הכל סגור בשני), אפס אוטובוסים, הכל במרחק 5 דקות הליכה. <b>Benesse House בערב — ויתרנו.</b> השאטל לא פועל בשני, וזה סיכון מיותר אחרי יום נסיעה.</div>
 </div>
 
-<div style="margin:14px 0;padding:12px;border-right:4px solid #003b95;background:#fafafa">
-<b style="font-size:15px">יום ג' · 6.10 · נאושימה — אופניים חשמליים</b> <span style="color:#666">(טשימה סגורה בשלישי)</span>
-<div style="background:#fff3cd;border:1px solid #e0a800;border-radius:6px;padding:8px;margin:8px 0;font-size:12px"><b>⚡ שני תנאים מקדימים:</b> <b>1.</b> להקדים את איסוף האופניים ל-<b>08:00</b> (Ougiya פתוח 8:00–18:00, ההזמנה כרגע 09:00) 📞 090-3189-0471 · <b>2.</b> כרטיס צ'יצ'ו לסוליי ל-<b>10:15</b> — חינם, 3 דקות. <a href="https://benesse-artsite.eventos.tokyo/web/portal/797/event/8483/" target=_blank>פורטל Benesse »</a></div>
-<b>07:30</b> ארוחת בוקר בבית (נקנתה אתמול)<br>
-<b>08:00</b> 🚲 <a href="https://ougiya-naoshima.jp/english/rental.html" target=_blank><b>Ougiya</b></a> — איסוף אופניים<br>
-<b>08:20</b> רכיבה לאורך החוף (~20 דק', שטוח) — 🎃 <a href="https://www.google.com/maps/search/?api=1&query=Yayoi+Kusama+Yellow+Pumpkin+Naoshima" target=_blank><b>הדלעת הצהובה</b></a> ופסלי החוף בדרך (חינם) · חונים ב-Tsutsujiso<br>
-<b>08:55–09:55</b> 🎨 <a href="https://benesse-artsite.jp/en/art/benessehouse-museum.html" target=_blank><b>Benesse House Museum</b></a> — <span style="color:#2c6e49"><b>נפתח 08:00, האי עוד ישן</b></span> · 60 דק'<br>
-<span style="font-size:11px;color:#666;padding-right:14px">↳ 15 דק' מרווח + שאטל</span><br>
-<b>10:10–11:30</b> 🎨 <a href="https://benesse-artsite.jp/en/art/chichu.html" target=_blank><b>Chichu Art Museum</b></a> · 80 דק' · ✅ שולם<br>
-<span style="font-size:11px;color:#666;padding-right:14px">↳ 15 דק' מרווח</span><br>
-<b>11:45–12:15</b> 🎨 <a href="https://benesse-artsite.jp/en/art/lee-ufan.html" target=_blank><b>Lee Ufan Museum</b></a> · 30 דק'<br>
-<span style="font-size:11px;color:#666;padding-right:14px">↳ 15 דק' מרווח</span><br>
-<b>12:30–13:30</b> 🍽️ <b>צהריים — שעה מלאה</b> · <a href="https://www.gltjp.com/en/directory/item/11363/" target=_blank><b>Benesse House Museum Café</b></a> · קארי, פסטה ✅ · <span style="font-size:11px">הכניסה בכרטיס המוזיאון שכבר יש לכם</span><br>
-<b>13:30–14:15</b> שאטל לאופניים + רכיבה ל<a href="https://www.google.com/maps/search/?api=1&query=Honmura+Naoshima" target=_blank><b>הונמורה</b></a> (25 דק' עם מרווח)<br>
-<b>14:15–15:25</b> 🏘️ <a href="https://benesse-artsite.jp/en/art/arthouse.html" target=_blank><b>Art House Project</b></a> · ¥1,200 · Kadoya · Go'o Shrine · Haisha · Ishibashi · Gokaisho<br>
-<span style="font-size:11px;color:#666;padding-right:14px">↳ 10 דק' מרווח · מינמידרה בטבלת ההתפצלות למטה</span><br>
-<b>15:35–15:55</b> 🎨 <a href="https://benesse-artsite.jp/en/art/ando-museum.html" target=_blank><b>Ando Museum</b></a> · 20 דק' · <span style="color:#c0392b">פתוח 14:00–16:30</span><br>
-<b>16:00–16:45</b> 🎨 <a href="https://benesse-artsite.jp/en/nnmoa/" target=_blank><b>Naoshima New Museum of Art</b></a> · <span style="color:#c0392b"><b>חייבים להיות בפנים עד 16:00</b></span> · יש בו &amp;CAFE<br>
-<b>17:00</b> רכיבה למיאנאורה · החזרת אופניים עד 18:00<br>
-<b>17:20</b> 🆓 <a href="https://benesse-artsite.jp/en/art/naoshima-gallery6.html" target=_blank><b>Miyanoura Gallery 6</b></a> + <a href="https://www.google.com/maps/search/?api=1&query=The+Naoshima+Plan+The+Water" target=_blank><b>The Naoshima Plan "The Water"</b></a> — <b>שניהם חינם, ליד הבית</b><br>
-<b>17:50–18:45</b> ♨️ <a href="https://benesse-artsite.jp/en/art/naoshimasento.html" target=_blank><b>אמבט האמנות I♥湯</b></a> · 13:00–21:00 · סוליי ¥310 · 📞 087-892-2626<br>
-<b>19:00</b> 🍽️ <a href="https://maps.google.com/?cid=12706252560932003449" target=_blank><b>Cin.na.mon</b></a> · 17:00–21:00 · סגור א'+ב' · <b>📞 +81 87-840-8133 להזמין</b>
-<div style="margin-top:8px;padding:8px;background:#ffecec;border-radius:6px;font-size:12px"><b>🔴 מה שנפל כדי לפנות שעת צהריים ומרווחים — ואת צריכה להחליט</b><br>
-<b>Hiroshi Sugimoto Gallery</b> (60 דק', כולל תה ומתוקים) ו-<b>Valley Gallery</b> (30 דק') <b>לא נכנסים</b> ליום הזה. פשוט אין שעות.<br>
-<b>אם Sugimoto חשוב לך</b> — מוותרים על <b>Naoshima New</b> ומכניסים אותו במקומו ב-12:30, והצהריים עוברים ל-14:00 בהונמורה.<br>
-<b>ההמלצה שלי: להשאיר כמו שכתוב.</b> Sugimoto הוא גלריה אחת עם תה; Naoshima New הוא מוזיאון חדש שלם של טדאו אנדו, ו-Art House הוא הלב של האי.<br>
-<span style="color:#c0392b"><b>נקודת הלחץ היחידה ביום:</b> להיות בכניסה ל-Naoshima New לפני 16:00. אם Art House נמשך — מדלגים על Ando (20 דק') ונכנסים ישר.</span></div>
-</div>
+<div class="card crit" style="margin:0 0 14px"><h3>⏱️ כללי הלוז — חלים על כל שורה</h3>
+<b>+25% זמן לכל פעילות</b> · <b>15 דק' מוקדם לכל תחבורה</b> · <b>הפסקה 30 דק' אחרי כל מוזיאון</b> · <b>המסעדה תמיד במרחק הליכה</b> · <b>אוכל לסוליי כל שעתיים</b>
+<div class=fx>העמודה <b>"אופציונלי"</b> = מה שנכנס רק אם היום זורם. אף שורה אופציונלית לא מפילה שום דבר אחר אם מדלגים עליה.</div></div>
 
-<div style="margin:14px 0;padding:12px;border-right:4px solid #003b95;background:#fafafa">
-<b style="font-size:15px">יום ד' · 7.10 · טשימה — באוטובוס</b>
-<div style="background:#ffecec;border-radius:6px;padding:8px;margin:8px 0;font-size:12px"><b>🎒 לוקחים מהבית:</b> ארוחת בוקר לסוליי (נקנתה 5.10) · <b>מזומן</b> לספינה ולאוטובוס · מים. <b>בטשימה אין סופר, אין בית מרקחת ואין פחי אשפה בנמל.</b></div>
-<b>07:45</b> ארוחת בוקר בבית<br>
-<b>08:50</b> ⛴️ ברציף <b>ספינות הנוסעים</b> במיאנאורה — <span style="color:#c0392b">כרטיסים ממוספרים, מזומן, נמכרים 20–30 דק' לפני</span><br>
-<b>09:20</b> ספינה → <b>09:42</b> <a href="https://www.google.com/maps/search/?api=1&query=Ieura+Port+Teshima" target=_blank><b>נמל איאורה</b></a><br>
-<span style="font-size:11px;color:#666;padding-right:14px">↳ 23 דק' מרווח בנמל</span><br>
-<b>10:05</b> 🚌 אוטובוס → <b>10:19</b> תחנת 美術館前<br>
-<b>10:30–11:30</b> 🎨 <a href="https://benesse-artsite.jp/en/art/teshima-artmuseum.html" target=_blank><b>Teshima Art Museum</b></a> · 60 דק' · <span style="color:#c0392b"><b>עדיין לא הוזמן 🔴</b></span><br>
-<span style="font-size:11px;color:#666;padding-right:14px">↳ חולצים נעליים, שקט מוחלט, בלי צילום · 20 דק' מרווח + הליכה במורד לחוף</span><br>
-<b>11:50–12:20</b> 🎨 <a href="https://benesse-artsite.jp/en/art/boltanski.html" target=_blank><b>Les Archives du Cœur</b></a> · 30 דק'<br>
-<b>12:26</b> 🚌 אוטובוס → <b>12:40</b> איאורה<br>
-<b>12:50–13:50</b> 🍽️ <b>צהריים — שעה מלאה</b> · <a href="https://il-grano.jp/umi/" target=_blank><b>Umi no Restaurant</b></a> · איטלקית, פסטה וסטי בשר ✅ · 📞 0879-68-3677 · <a href="https://www.tablecheck.com/en/uminorestaurant" target=_blank><b>להזמין</b></a><br>
-<span style="font-size:11px;color:#666;padding-right:14px">↳ 20 דק' מרווח</span><br>
-<b>14:10–14:40</b> 🎨 <a href="https://benesse-artsite.jp/en/art/teshima-yokoohouse.html" target=_blank><b>Teshima Yokoo House</b></a> · באיאורה עצמה, הליכה מהמסעדה<br>
-<b>14:40–16:00</b> זמן חופשי בנמל · <a href="https://teshima-navi.jp/en/" target=_blank>מרכז התרבות</a> (חדר החתלה) · קפה<br>
-<b>16:17</b> ⛴️ ספינה → <b>16:39</b> מיאנאורה<br>
-<b>17:45</b> 🍽️ <a href="https://maps.google.com/?cid=12706252560932003449" target=_blank><b>Cin.na.mon</b></a> או <a href="https://maps.google.com/?cid=13073216452073130695" target=_blank><b>Little Plum</b></a>
-<div style="margin-top:8px;padding:8px;background:#fff6e5;border-radius:6px;font-size:12px"><b>🚌 גיבויים לאוטובוס</b> (רכב אחד באי, 28 מקומות): <a href="http://www.tppp.jp/" target=_blank><b>Teshima PP</b></a> — אופניים חשמליים <b>עם כיסא ילד</b>, ¥2,000/יום, 3 דק' מהנמל, 📞 080-2943-7788 · <b>Akiyama Taxi</b> 📞 0879-68-2111 (רכב אחד באי, בהזמנה).<br>
-<b>אם סוליי עייף:</b> ספינת <b>13:40</b> חזרה, מוותרים על Yokoo House.</div>
-</div>
-
-<div style="margin:14px 0;padding:12px;border-right:4px solid #003b95;background:#fafafa">
-<b style="font-size:15px">יום ה' · 8.10 · יציאה לטוקיו</b><br>
-<b>08:30</b> ארוחת בוקר · אריזה<br>
-<b>09:20</b> 🎃 תמונה אחרונה ב<a href="https://www.google.com/maps/search/?api=1&query=Red+Pumpkin+Naoshima" target=_blank><b>דלעת האדומה</b></a> (2 דק' מהנמל)<br>
-<b>09:52</b> ⛴️ מעבורת → <b>10:12</b> אונו · <span style="color:#c0392b"><b>מרציף המעבורות, לא מרציף ספינות הנוסעים</b></span><br>
-<b>~10:30</b> JR Uno Line לאוקיאמה (~50 דק', החלפה בצ'איאמאצ'י) או מונית · <b>~11:45</b> שינקנסן
-</div>
+<div class=wrap><table style="min-width:900px">
+<tr><th>שעה</th><th>מה</th><th>כמה</th><th>הערות</th><th>הזמנה</th></tr>
+<tr><td colspan=5 style="background:#8a5a2a;color:#fff;font-weight:700;padding:8px">יום ב' · 5.10 · הגעה — יום מנוחה, אפס מוזיאונים (הכל סגור בשני)</td></tr>
+<tr><td class=dt style='font-weight:700;white-space:nowrap'>15:30</td><td class=d style='white-space:normal'>⛴️ מעבורת אונו → מיאנאורה</td><td class=dt>20 דק'</td><td class=nt style='max-width:300px'>¥300 · סוליי ¥150 · כרטיס בדלפק · <b>רציף המעבורות</b></td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>16:10</td><td class=d style='white-space:normal'>🏠 צ'ק-אין <a href="https://www.google.com/maps/search/?api=1&query=Juju+Kiseki+House+Naoshima" target=_blank>Juju</a></td><td class=dt>40 דק'</td><td class=nt style='max-width:300px'>7 דק' הליכה מהנמל. <b>לפרוק, לנשום.</b> אחרי 4 שעות נסיעה הוא צריך את זה.</td><td style='font-size:11px'>✅</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>16:50</td><td class=d style='white-space:normal'>🎃 <a href="https://www.google.com/maps/search/?api=1&query=Red+Pumpkin+Naoshima" target=_blank>דלעת אדומה</a> + Pavilion + Gallery 6</td><td class=dt>50 דק'</td><td class=nt style='max-width:300px'><b>שלושתם בנמל</b>, 5 דק' הליכה. חינם 🆓. סוליי מתפרע, אתם רואים שקיעה.</td><td style='font-size:11px'>🆓</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>17:45</td><td class=d style='white-space:normal'>🛒 קניות + מזומן</td><td class=dt>30 דק'</td><td class=nt style='max-width:300px'>7-Eleven / COOP. <b>ל-3 בקרים + חטיפים לתיק.</b> מזומן לספינה ולאוטובוסים.</td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>18:15</td><td class=d style='white-space:normal'>🍽️ <a href="https://maps.google.com/?cid=13073216452073130695" target=_blank>Little Plum</a></td><td class=dt>90 דק'</td><td class=nt style='max-width:300px'>2 דק' מהנמל · 16:00–21:30 · בלי יום סגירה · 📞 090-1112-7040</td><td style='font-size:11px'>מומלץ</td></tr><tr><td colspan=5 style="background:#003b95;color:#fff;font-weight:700;padding:8px">יום ג' · 6.10 · אזור Benesse — 5 מוזיאונים באותו מתחם, אפס רכיבה בין אתרים</td></tr>
+<tr><td class=dt style='font-weight:700;white-space:nowrap'>09:00</td><td class=d style='white-space:normal'>🚲 <a href="https://ougiya-naoshima.jp/english/rental.html" target=_blank>Ougiya</a> — איסוף אופניים</td><td class=dt>15 דק'</td><td class=nt style='max-width:300px'>2 דק' מהבית · <b>לבקש להשאיר גם ליום ה'</b> · 📞 090-3189-0471</td><td style='font-size:11px'>✅ מוזמן</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>09:15</td><td class=d style='white-space:normal'>🚲 רכיבה + 🎃 דלעת צהובה</td><td class=dt>25 דק'</td><td class=nt style='max-width:300px'>20 בפועל, מתוקצב 25. חוף שטוח. חונים ב-Tsutsujiso.</td><td style='font-size:11px'>🆓</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>09:45</td><td class=d style='white-space:normal'>🚐 שאטל חינם → צ'יצ'ו</td><td class=dt>10 דק'</td><td class=nt style='max-width:300px'>כל 30 דק'. <b>09:55 בכניסה = 15 דק' לפני.</b> לא פועל בשני.</td><td style='font-size:11px'>🆓</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>10:10</td><td class=d style='white-space:normal'>🎨 <a href="https://benesse-artsite.jp/en/art/chichu.html" target=_blank>צ'יצ'ו</a></td><td class=dt><b>90 דק'</b></td><td class=nt style='max-width:300px'>70+25%. סוליי במשבצת 10:30 — <b>נכנסים יחד ב-10:25–10:45</b>.</td><td style='font-size:11px'>✅ שולם</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>11:50</td><td class=d style='white-space:normal'>🎨 <a href="https://benesse-artsite.jp/en/art/sugimoto-gallery.html" target=_blank>Sugimoto</a></td><td class=dt><b>75 דק'</b></td><td class=nt style='max-width:300px'><b>כולל תה ומתוקים ☕</b> — ההפסקה של סוליי. <span style='color:#c0392b'>11:00–15:00 בלבד, כניסה אחרונה 14:00 — לכן לפני הצהריים.</span></td><td style='font-size:11px'>🔴 <a href="https://benesse-artsite.eventos.tokyo/web/portal/797/event/8483/" target=_blank>הזמנה</a></td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>13:15</td><td class=d style='white-space:normal'>🍽️ Benesse House Café</td><td class=dt><b>60 דק'</b></td><td class=nt style='max-width:300px'><b>אותו בניין.</b> קארי ופסטה ✅. הכניסה בכרטיס המוזיאון.</td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>14:25</td><td class=d style='white-space:normal'>🎨 <a href="https://benesse-artsite.jp/en/art/lee-ufan.html" target=_blank>Lee Ufan</a></td><td class=dt>40 דק'</td><td class=nt style='max-width:300px'>30+25% · הליכה</td><td style='font-size:11px'>🔴 <a href="https://benesse-artsite.eventos.tokyo/web/portal/797/event/8483/" target=_blank>הזמנה</a></td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>15:15</td><td class=d style='white-space:normal'>🎨 Valley Gallery</td><td class=dt>30 דק'</td><td class=nt style='max-width:300px'><span style='color:#c0392b'>כניסה אחרונה 15:30 ✓</span> · אותו כרטיס כמו Benesse House</td><td style='font-size:11px'>🔴 <a href="https://benesse-artsite.eventos.tokyo/web/portal/797/event/8483/" target=_blank>הזמנה</a></td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>15:55</td><td class=d style='white-space:normal'>🎨 <a href="https://benesse-artsite.jp/en/art/benessehouse-museum.html" target=_blank>Benesse House Museum</a></td><td class=dt>65 דק'</td><td class=nt style='max-width:300px'><b>פתוח עד 21:00 — הכרית של היום.</b> כל איחור מצטבר נבלע כאן.</td><td style='font-size:11px'>🔴 <a href="https://benesse-artsite.eventos.tokyo/web/portal/797/event/8483/" target=_blank>הזמנה</a></td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>17:10</td><td class=d style='white-space:normal'>🚲 רכיבה חזרה + החזרה</td><td class=dt>30 דק'</td><td class=nt style='max-width:300px'><b>17:40 החזרה</b> — 20 דק' לפני הסגירה</td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>18:00</td><td class=d style='white-space:normal'>♨️ <a href="https://benesse-artsite.jp/en/art/naoshimasento.html" target=_blank>I♥湯</a></td><td class=dt>60 דק'</td><td class=nt style='max-width:300px'>5 דק' מהבית · סוליי ¥310 · 13:00–21:00</td><td style='font-size:11px'>במקום</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>19:15</td><td class=d style='white-space:normal'>🍽️ <a href="https://maps.google.com/?cid=12706252560932003449" target=_blank>Cin.na.mon</a></td><td class=dt>90 דק'</td><td class=nt style='max-width:300px'><b>סגור א'+ב'</b> · 📞 +81 87-840-8133</td><td style='font-size:11px'>🔴 להזמין</td></tr><tr><td colspan=5 style="background:#06c;color:#fff;font-weight:700;padding:8px">יום ד' · 7.10 · טשימה — אחרי 12:40 הכל באיאורה, אפס נסיעות</td></tr>
+<tr><td class=dt style='font-weight:700;white-space:nowrap'>08:50</td><td class=d style='white-space:normal'>⛴️ ברציף <b>ספינות הנוסעים</b></td><td class=dt>30 דק' לפני</td><td class=nt style='max-width:300px'><span style='color:#c0392b'>כרטיסים ממוספרים, <b>מזומן</b>, נמכרים 20–30 דק' לפני. קיבולת ~80.</span></td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>09:20</td><td class=d style='white-space:normal'>⛴️ ספינה → 09:42 איאורה</td><td class=dt>22 דק'</td><td class=nt style='max-width:300px'>¥820 · סוליי ¥410 · <b>לא פועלת בשלישי</b></td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>09:50</td><td class=d style='white-space:normal'>🚌 בתחנה</td><td class=dt>15 דק' לפני</td><td class=nt style='max-width:300px'>¥400 · <b>סוליי חינם</b> · מזומן · <b>רכב אחד, 28 מקומות</b></td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>10:20</td><td class=d style='white-space:normal'>🌾 מדרגות האורז</td><td class=dt><b>40 דק'</b></td><td class=nt style='max-width:300px'>🆓 הנוף הכי יפה באי · יש קפה · <b>הוא מתפרע לפני מוזיאון שדורש שקט מוחלט</b></td><td style='font-size:11px'>🆓</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>11:00</td><td class=d style='white-space:normal'>🎨 <a href="https://benesse-artsite.jp/en/art/teshima-artmuseum.html" target=_blank>Teshima Art Museum</a></td><td class=dt>60 דק'</td><td class=nt style='max-width:300px'>חולצים נעליים · בלי דיבור · בלי צילום</td><td style='font-size:11px'>✅ מוזמן</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>12:11</td><td class=d style='white-space:normal'>🚌 בתחנה → 12:40 איאורה</td><td class=dt>15 דק' לפני</td><td class=nt style='max-width:300px'>האוטובוס הבא רק ב-13:51</td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>12:55</td><td class=d style='white-space:normal'>🍽️ <a href="https://il-grano.jp/umi/" target=_blank>Umi no Restaurant</a></td><td class=dt><b>60 דק'</b></td><td class=nt style='max-width:300px'>5 דק' מהנמל · פסטה וסטי בשר ✅ · <b>סגור שלישי</b> · 📞 0879-68-3677</td><td style='font-size:11px'>🔴 <a href="https://www.tablecheck.com/en/uminorestaurant" target=_blank>TableCheck</a></td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>14:10</td><td class=d style='white-space:normal'>🎨 <a href="https://benesse-artsite.jp/en/art/teshima-yokoohouse.html" target=_blank>Yokoo House</a></td><td class=dt>40 דק'</td><td class=nt style='max-width:300px'><b>הליכה מהמסעדה</b></td><td style='font-size:11px'>🔴 <a href="https://benesse-artsite.eventos.tokyo/web/portal/797/event/8483/" target=_blank>הזמנה</a></td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>14:50</td><td class=d style='white-space:normal'>🌊 חופשי בנמל</td><td class=dt>70 דק'</td><td class=nt style='max-width:300px'>ים, גלידה, מרכז התרבות (חדר החתלה)</td><td style='font-size:11px'>🆓</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>16:00</td><td class=d style='white-space:normal'>⛴️ ברציף → 16:17 → 16:39</td><td class=dt>17 דק' לפני</td><td class=nt style='max-width:300px'><b>הספינה האחרונה. אין אחריה.</b></td><td style='font-size:11px'>—</td></tr><tr class=u><td class=dt style="font-weight:700">אופציונלי</td><td class=d>🎨 Les Archives du Cœur</td><td class=dt>30 דק'</td><td class=nt><b>רק אם היום זורם.</b> אחרי Yokoo: אוטובוס 14:26 → ביקור 14:45–15:15 → אוטובוס 15:36 → 15:50 → ספינת 16:17. <span style="color:#c0392b">עובד, אבל הופך יום רגוע ליום צמוד.</span></td><td style="font-size:11px">🟡 <a href="https://benesse-artsite.eventos.tokyo/web/portal/797/event/8483/" target=_blank>הזמנה</a></td></tr>
+<tr><td colspan=5 style="background:#8a5a2a;color:#fff;font-weight:700;padding:8px">יום ה' · 8.10 · הונמורה בבוקר → טוקיו &nbsp;·&nbsp; <span style="background:#fff;color:#8a5a2a;padding:2px 8px;border-radius:4px">מעבורת 14:55</span></td></tr>
+<tr><td class=dt style='font-weight:700;white-space:nowrap'>09:00</td><td class=d style='white-space:normal'>צ'ק-אאוט + 🧳 מזוודות ללוקרים</td><td class=dt>30 דק'</td><td class=nt style='max-width:300px'><b>לוקרים בנמל, 24 שעות, מתחת לגג.</b> מטבעות. לא תלוי במארח.</td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>09:30</td><td class=d style='white-space:normal'>🚲 רכיבה להונמורה</td><td class=dt>25 דק'</td><td class=nt style='max-width:300px'><b>אופניים ולא אוטובוס</b> — לוח האוטובוסים לא מפורסם ולא ניתן לאימות. אופניים בשליטה שלכם.</td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>10:00</td><td class=d style='white-space:normal'>🏘️ <a href="https://benesse-artsite.jp/en/art/arthouse.html" target=_blank>Art House Project</a></td><td class=dt><b>85 דק'</b></td><td class=nt style='max-width:300px'><b>5 בתים ברחוב אחד.</b> ¥1,200 אונליין / ¥1,400 בקופה · סוליי חינם. <b>מינמידרה וקינזה לא כלולים.</b></td><td style='font-size:11px'>🔴 <a href="https://benesse-artsite.eventos.tokyo/web/portal/797/event/8483/" target=_blank>הזמנה</a></td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>11:30</td><td class=d style='white-space:normal'>🎨 <a href="https://benesse-artsite.jp/en/art/ando-museum.html" target=_blank>Ando Museum</a></td><td class=dt>25 דק'</td><td class=nt style='max-width:300px'><span style='color:#c0392b'>סוגר להפסקה 13:00–14:00</span> · ¥600</td><td style='font-size:11px'>🔴 <a href="https://benesse-artsite.eventos.tokyo/web/portal/797/event/8483/" target=_blank>הזמנה</a></td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>12:10</td><td class=d style='white-space:normal'>🎨 <a href="https://benesse-artsite.jp/en/nnmoa/" target=_blank>Naoshima New Museum</a></td><td class=dt><b>70 דק'</b></td><td class=nt style='max-width:300px'>המבנה העשירי של אנדו · יש &amp;CAFE · <b>לא דורש הזמנה מראש</b> · ¥1,500 אונליין</td><td style='font-size:11px'>🟢 במקום</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>13:30</td><td class=d style='white-space:normal'>🍽️ צהריים בהונמורה</td><td class=dt>45 דק'</td><td class=nt style='max-width:300px'>או ב-&amp;CAFE שבתוך Naoshima New</td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>14:15</td><td class=d style='white-space:normal'>🚲 רכיבה חזרה + החזרה</td><td class=dt>25 דק'</td><td class=nt style='max-width:300px'></td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>14:40</td><td class=d style='white-space:normal'>⛴️ ברציף</td><td class=dt>15 דק' לפני</td><td class=nt style='max-width:300px'><b>רציף המעבורות, לא ספינות נוסעים</b></td><td style='font-size:11px'>—</td></tr><tr><td class=dt style='font-weight:700;white-space:nowrap'>14:55</td><td class=d style='white-space:normal'>⛴️ מעבורת → ~15:15 אונו</td><td class=dt>20 דק'</td><td class=nt style='max-width:300px'>¥300 · סוליי ¥150 → JR לאוקיאמה → שינקנסן · טוקיו ~20:15</td><td style='font-size:11px'>—</td></tr><tr class=u><td class=dt style="font-weight:700">חלופה</td><td class=d>⛴️ מעבורת 12:45 במקום</td><td class=dt>—</td><td class=nt>אם את רוצה להגיע לטוקיו ב-18:00 במקום 20:15: <b>Art House בלבד</b>, 10:00–11:25, ואז חזרה. <b>Ando ו-Naoshima New יורדים.</b></td><td style="font-size:11px">—</td></tr>
+</table></div>
 
 <div style="margin:16px 0 0;padding:12px;border:2px solid #6a3d9a;border-radius:8px;background:#fff">
 <b style="font-size:14px">👥 מה שסוליי לא יכול — אופציות להתפצל מגל</b>
